@@ -37,7 +37,7 @@ For any contribution or modification:
 
 	git fork https://github.com/lcaruso27/schedule-psi.git
 	```
-* Open schedule-psi project from your favorite IDE. Feel free to use either Maeven or Gradle as compiler for the project.
+* Open `schedule-psi` project from your favorite IDE. Feel free to use either Maeven or Gradle as compiler for the project.
 
 NOTE: Historic folder will be written at the root of the project directory.
 
@@ -45,16 +45,16 @@ NOTE: Historic folder will be written at the root of the project directory.
 ````
 schedule-psi
 ├── MyPlannings 						- Folder with historic JSON files
-├── out/artifacts/JAR 		- Folder with executables
-│	├── jre								- Folder with all java ressources to make working the application
+├── out/artifacts/JAR 						- Folder with executables
+│	├── jre							- Folder with all java ressources to make working the application
 │	├── psi_icon.ico					- Icon file for the exe
 │	├── README						- Some pretty good information about the software are written there...  
-│	└── schedule-psi.jar 				- JAR file build by IntelliJ Idea IDE 
-├── src 								- Source code of the whole project
-├── LICENSE								- Project license
+│	└── schedule-psi.jar 					- JAR file build by IntelliJ Idea IDE 
+├── src 							- Source code of the whole project
+├── LICENSE							- Project license
 ├── pom.xml 							- XML file to compile the project with Maeven
-├── README								- Readme file
-└── schedule-psi.exe					- Executable file to use SchedulePSI application based on the JAR file. Launch4J software was used to convert JAR file into EXE one.
+├── README							- Readme file
+└── schedule-psi.exe						- Executable file to use SchedulePSI application based on the JAR file. Launch4J software was used to convert JAR file into EXE one.
 ````
 
 ## Screenshots
