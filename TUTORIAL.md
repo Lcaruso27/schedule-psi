@@ -10,7 +10,7 @@ Double-click on SchedulePSI.exe.
 Here under some explanations about the pipeline of the planning procedure.
 
  * First frame - MainView:	
-	* Choose the Excel file with planning information (new excel file or previous planning in json file).
+	* Choose the Excel file with planning information (new Excel file or previous planning in json file).
 	* Specify if members indicated their availabilities or non-availabilities in the doodle! (only for new planning)
 
  * Second frame - InterviewersView:
