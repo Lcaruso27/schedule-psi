@@ -1,7 +1,7 @@
 # schedule-psi
 
 schedule-psi is a software designed to help the Junior-Entreprise Physique Strasbourg Ingenierie (PSI) to schedule the meetings 
-to interview their members. The software has been especially designed for their needs. Only available a French version is supported for now.
+to interview their members. The software has been especially designed for their needs. Only a French version is supported for now.
 
 ## Description
 
