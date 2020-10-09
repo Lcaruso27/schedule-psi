@@ -2,7 +2,6 @@ package com.lcaruso27.schedulepsi.app
 
 import com.lcaruso27.schedulepsi.view.MainView
 import javafx.scene.image.Image
-import javafx.stage.Stage
 import tornadofx.*
 
 /**
