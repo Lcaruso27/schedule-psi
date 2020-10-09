@@ -47,9 +47,11 @@ NOTE: The historic folder will be written at the root of the project directory.
 ````
 schedule-psi
 ├── src 						- Source code of the whole project
+├── .gitignore						- Specifies folder and files not to add in Git
 ├── LICENSE						- Project license
+├── README.md						- Readme file
+├── TUTORIAL.md						- Quick tutorial about the software
 ├── pom.xml 						- XML file to compile the project with Maeven
-├── README						- Readme file
 └── schedule-psi.exe					- Executable file to use SchedulePSI application based on the JAR file. Launch4J software was used to convert JAR file into EXE one.
 ````
 
