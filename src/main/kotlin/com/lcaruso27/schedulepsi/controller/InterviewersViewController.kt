@@ -18,7 +18,7 @@ class InterviewersViewController : Controller(){
     /**
      * ArrayList of People which populates the TableView from InterviewersView.
      */
-    val interviewers = ArrayList<People>().observable()
+    val interviewers = ArrayList<People>().asObservable()
 
     /**
      * Method that retrieves all members within the DoodleExcelModel as an observable list.

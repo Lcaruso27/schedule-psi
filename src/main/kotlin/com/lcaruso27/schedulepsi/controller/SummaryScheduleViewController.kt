@@ -26,7 +26,7 @@ class SummaryScheduleViewController : Controller() {
      * Observable ArrayList of [SummaryScheduleTable] which stores all meetings scheduled. The list is sorted
      * according to the number of availabilities of all members.
      */
-    val scheduleSummary = ArrayList<SummaryScheduleTable>().observable()
+    val scheduleSummary = ArrayList<SummaryScheduleTable>().asObservable()
 
     /**
      * ArrayList of String which stores all possible meetings from the doodle.

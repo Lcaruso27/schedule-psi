@@ -82,18 +82,20 @@ class ExportView : View("Export") {
         }
 
         button("Exporter"){
-            action{
-                val file = chooseFile("Fichier Excel",ef, FileChooserMode.Save)
-                val filepath = file.first().absolutePath
-                var boolRead = false
-                val thread = runAsyncWithProgress{
-                    //Export to Excel file the planning data
-                    boolRead = doodle.writeToExcel(filepath)
-                }
+            action {
+                val file = chooseFile("Fichier Excel", ef, null, FileChooserMode.Save)
+                if (file.isNotEmpty()) {
+                    val filepath = file.first().absolutePath
+                    var boolRead = false
+                    val thread = runAsyncWithProgress {
+                        //Export to Excel file the planning data
+                        boolRead = doodle.writeToExcel(filepath)
+                    }
 
-                thread.setOnSucceeded {
-                    if(!boolRead) {
-                        alert(Alert.AlertType.ERROR, "Erreur lors de l'export", msgExportError)
+                    thread.setOnSucceeded {
+                        if(!boolRead) {
+                            alert(Alert.AlertType.ERROR, "Erreur lors de l'export", msgExportError)
+                        }
                     }
                 }
             }

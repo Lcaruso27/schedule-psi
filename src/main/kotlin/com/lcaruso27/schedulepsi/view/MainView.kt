@@ -10,7 +10,6 @@ import javafx.scene.control.*
 import javafx.scene.text.Font
 import javafx.scene.text.FontWeight
 import javafx.stage.FileChooser
-import javafx.stage.Stage
 import tornadofx.*
 import java.io.File
 
@@ -66,7 +65,7 @@ class MainView : View("Home") {
      * @see HistoricalController
      * @see HistoricalTable
      */
-    private val historic = controller.historic.observable()
+    private val historic = controller.historic.asObservable()
 
     /**
      * List of extension filters. It aims to select only Excel file type when looking for a file.
@@ -74,7 +73,7 @@ class MainView : View("Home") {
     private val ef = arrayOf(FileChooser.ExtensionFilter("Tableur (*.xls, *.xlsx, *.xlsm)", "*.xls", "*.xlsx", "*.xlsm"))
 
     /**
-     * Textfield that contains the path of the file selected when choosing to import an Excel file.
+     * TextField that contains the path of the file selected when choosing to import an Excel file.
      */
     private lateinit var txtField: TextField
 
@@ -170,7 +169,7 @@ class MainView : View("Home") {
 
         button("Importer Doodle") {
             action {
-                val file: List<File> = chooseFile("Fichier Doodle", ef, FileChooserMode.Single)
+                val file: List<File> = chooseFile("Fichier Doodle", ef, null, FileChooserMode.Single)
                 if (file.isNotEmpty()) {
                     txtField.text = file.first().canonicalPath
                     dataFileName = file.first().absolutePath
