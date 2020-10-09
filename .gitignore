@@ -1,0 +1,9 @@
+# Folder created by the compiler
+.idea
+target
+package
+
+# Configuration and log files
+*.iml
+*.log
+*.MF
