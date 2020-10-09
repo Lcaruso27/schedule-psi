@@ -46,12 +46,6 @@ NOTE: The historic folder will be written at the root of the project directory.
 ## Repository organisation
 ````
 schedule-psi
-├── MyPlannings 					- Folder with historic JSON files
-├── package                                             - Folder with executables
-│	├── jre						- Folder with all java ressources to make working the application
-│	├── psi_icon.ico				- Icon file for the exe
-│	├── README.md					- Some pretty good information about the software are written there...  
-│	└── schedule-psi.jar			        - JAR file build by IntelliJ Idea IDE 
 ├── src 						- Source code of the whole project
 ├── LICENSE						- Project license
 ├── pom.xml 						- XML file to compile the project with Maeven
