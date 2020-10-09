@@ -16,12 +16,7 @@ The software stores JSON file as historics. The corresponding folder is called `
 
 ### User mode
 
-Just clone the repository on your desktop.
-```
-git clone https://github.com/lcaruso27/schedule-psi.git
-```
-
-Then open the executable file:`schedule-psi.exe`. This file was produced with two steps:
+Download and open the executable file `schedule-psi-x.x.x.exe` within the releases. This file was produced with two steps:
 * Computes the JAR file of the project from my IDE (IntelliJ IDEA 2020 - Artifacts)
 * Convert JAR file into EXE file thanks to [Launch4J](http://launch4j.sourceforge.net/)
 
@@ -51,8 +46,7 @@ schedule-psi
 ├── LICENSE						- Project license
 ├── README.md						- Readme file
 ├── TUTORIAL.md						- Quick tutorial about the software
-├── pom.xml 						- XML file to compile the project with Maeven
-└── schedule-psi.exe					- Executable file to use SchedulePSI application based on the JAR file. Launch4J software was used to convert JAR file into EXE one.
+└── pom.xml 						- XML file to compile the project with Maeven
 ````
 
 ## Screenshots
