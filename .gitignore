@@ -1,10 +1,11 @@
 # Folder created by the compiler
 .idea
 target
-package
+schedule-psi-1.0.0-release
 
 # Configuration and log files
 *.iml
 *.log
 *.MF
 *.exe
+*.zip
