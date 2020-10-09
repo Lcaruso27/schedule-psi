@@ -16,7 +16,7 @@ The software stores JSON file as historics. The corresponding folder is called `
 
 ### User mode
 
-Download the zip file 'schedule-psi-x.x.x-release.zip' within the releases. This archive gathers all elements needed to execute the software. Unzip the archive
+Download the zip file `schedule-psi-x.x.x-release.zip` within the releases. This archive gathers all elements needed to execute the software. Unzip the archive
 and open the exe file within it. The exe was produced with two steps:
 * Computing the JAR file of the project from my IDE (IntelliJ IDEA 2020 - Artifacts)
 * Converting JAR file into EXE file thanks to [Launch4J](http://launch4j.sourceforge.net/)
